@@ -1,0 +1,379 @@
+@charset "utf-8";
+a,
+dd,
+div,
+dl,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    font-family: "PingFang SC", "Microsoft YaHei", "Lantinghei SC", "HanHei SC", "Helvetica Neue", "Open Sans", Arial, "Hiragino Sans GB", "微软雅黑", STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif
+}
+
+body.last_page .head {
+    padding-bottom: 6px;
+}
+
+.last_main {
+    position: relative;
+    overflow: hidden;
+    width:90vw;
+    margin: 1.5vw auto 0
+}
+
+.last_main ul {
+    position: relative;
+    overflow: hidden;
+    width: 100%
+}
+
+.last_main ul.work_main li {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 32%;
+    margin-bottom: 2vw;
+}
+
+.last_main ul.work_main li:nth-child(3n+2) {
+    margin: 0 2%
+}
+
+.last_main ul.work_main li img {
+    display: block;
+    width: 100%;
+    border-radius:1.5vw 1.5vw 0 0;
+    transition: all ease-in-out .5s;
+    -webkit-transition: all ease-in-out .5s
+}
+
+.last_main ul.work_main li:hover img {
+    opacity: .7
+}
+.last_main.showmian li:hover a.showp{
+    opacity: .7
+}
+.last_main ul.work_main li p {
+    display: block;
+    background: #fff;
+    text-align:center;
+    width: 100%;
+    color: #111;
+    font-size: 0.6vw;
+    padding:1.5vw 0;
+    border-radius:0 0 1.5vw 1.5vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.last_main .ke p{
+    background: #f4f4f4!important;
+} 
+.works_more{
+    width: 20vw;
+    cursor: pointer;
+    padding: 5vw 0 7vw 0;
+    margin:0 auto;
+}
+.works_more img{
+    width:100%;
+    display:block;
+}
+.sec_banner img {
+    width: 100%;
+    display: block
+}
+
+.solo_info {
+    width: 100%;
+    padding: 4.8vw 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+}
+.solo_info strong{
+    font-size:4.8vw;
+    color:#930600;
+}
+.solo_info h3{
+    font-size:3.5vw;
+    color:#a83933;
+    font-weight: bold;
+}
+.photo_main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff
+}
+.last_main ul.case_main li {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    margin-bottom:5vw;
+    cursor:pointer;
+}
+.last_main ul.case_main .vid_za{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:10;
+    display:none;
+}
+.last_main ul.case_main .vid_za img{
+    width:100%;
+}
+.last_main ul.case_main li a.season_pic {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    height: 18vw
+}
+
+.last_main ul.case_main li a.season_pic img {
+    transform: translateY(-2vw);
+    -webkit-transform: translateY(-2vw);
+    transition: all ease-in-out 1s;
+    -webkit-transition: all ease-in-out 1s
+}
+
+.last_main ul.case_main li a.season_pic:hover img {
+    transform: translateY(-4vw);
+    -webkit-transform: translateY(-4vw)
+}
+
+.last_main ul.case_main li img {
+    display: block;
+    width: 100%;
+    transition: all ease-in-out .5s;
+    -webkit-transition: all ease-in-out .5s
+}
+
+.last_main ul.case_main .solo_info {
+    width: 100%;
+    padding: 0;
+    border: none;
+    overflow:hidden;
+}
+
+.last_main ul.case_main .solo_info dl dd {
+    font-size:3.5vw;
+}
+.last_main ul.case_main .solo_info dl dt {
+    font-size: 0.6vw;
+}
+.last_main ul.case_main .solo_info dl.ky_1 {
+    text-align:left;
+    float:left;
+    padding: 0 1vw;
+}
+
+.last_main ul.case_main .solo_info .ky_3 {
+   float:right;
+   font-size:3vw;
+   padding-right:2vw;
+   padding:4.5vw 2vw 0 0;
+}
+
+.last_main ul.case_main .solo_info .ky_heat {
+    position: relative;
+    overflow: hidden
+}
+
+.last_main ul.case_main .solo_info .ky_heat a {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 14px;
+    border: #ccc solid 1px;
+    padding: .53vw 2.5vw;
+    transition: all ease-in-out .5s;
+    -webkit-transition: all ease-in-out .5s
+}
+.exc1{
+    width: 100%;
+    margin:0 auto;
+}
+.exc1 img{
+    width: 100%;
+    display:block;
+    margin:0 auto;
+    padding:1.5vw 0;
+}
+.last_main ul.case_main li:hover .vid_za{
+    display:block;
+}
+
+.last_main ul.case_main .solo_info .ky_heat a:hover {
+    border: #333 solid 1px
+}
+.last_main.showmian li a.showp{
+    width: 100%;
+    height: 27vw;
+    display: block;
+    background-size: cover;
+    transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+}
+
+
+.last_main ul.case_main.season_main .solo_info dl.ky_1 {
+    border: none
+}
+
+.mv_show {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+.mv_show video {
+    width: 70%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 6px
+}
+
+.mv_show h1 {
+    color: #000;
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 20px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    z-index: 100;
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer
+}
+.s_city{
+    width:100%;
+    background: #f7f7f7;
+}
+.ke_city{
+    width:100%;
+    background: #fff;
+}
+.works_cit{
+    width:38vw;
+    padding:4vw 0 2vw 0;
+    margin:0 auto;
+}
+.works_cit img{
+    width:100%;
+    display:block;
+}
+.vide{
+    width:100%;
+    background:#f6f6f6;
+    padding:3vw 0;
+}
+.video_tit1{
+    width:38vw;
+    padding:2vw 31vw;
+    margin:0 auto;
+}
+.video_tit2{
+    width:50vw;
+    padding:0 25vw;
+    margin:0 auto;
+}
+.video_tit3{
+    width:95vw;
+    padding:2vw 2.5vw;
+    margin:0 auto;
+}
+.video_tit1 img{
+    width:100%;
+    display:block;
+}
+.video_tit2 img{
+    width:100%;
+    display:block;
+}
+.sen_city {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+.sec_city {
+    display: inline-block;
+}
+
+.sen_city li {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 0.2vw 2vw;
+    display: block;
+    line-height: 3vw;
+    height:4vw;
+    border:0.05vw solid #000;
+    border-radius:0.2vw;
+    cursor:pointer;
+}
+.sen_city li.hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+.sen_city li.hover a{
+    color: #ffffff;
+}
+.sen_city li:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+.sen_city li:hover a{
+     color: #ffffff;
+}
+/*.last_page .sen_city li:last-child {
+    border: none
+}*/
+.sen_city li a {
+    color: #222;
+    font-size:3vw;
+    text-align: center;
+}
+
+
+.case_change {
+    padding:20px 0;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:1500px) {
+    .sen_city li {
+        padding: 0.2vw 1vw;
+        margin: 1vw
+    }
+}
